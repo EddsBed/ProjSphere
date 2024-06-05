@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <signal.h>
 #include <errno.h> 
+#include "Foo.h"
 
 //All constants in the equation are pre calculated for simplicity
 static double coefVal= (double)(M_PI/3.0); 

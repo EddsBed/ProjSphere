@@ -2,7 +2,7 @@
 INCLUDE_DIR = include
 
 # Compiler flags No warnings allowed for safety
-CFLAGS = -Wall -Werror
+CFLAGS = -Wall -Werror -D_POSIX_C_SOURCE=200809 -std=c99
 
 # Target executable
 TARGET = bin/Foo
