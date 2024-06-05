@@ -42,3 +42,6 @@ You are required to set a range as rounding errors and limitations may exist due
 The python code will iterate through and test every valid entry in each array.  
 An example of a successful bounds testing: ```TcBoundsSucceed = [['3',28.27433388230813449126799241639674, 28.27433388230813449126799241639675]]```
 To run the tests, type: ```python3 run_tests.py``` in the root directory.
+
+### Dependencies 
+gcc, make, python3, the standard math.h library
